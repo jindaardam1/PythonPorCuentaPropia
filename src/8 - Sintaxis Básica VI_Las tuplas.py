@@ -1,0 +1,15 @@
+tupla = ("Jagoba", "Mario", "Rubén", "Beñat", "Paula", "Aitor", "Jagoba")
+print(type(tupla))
+print(tupla[2])
+lista = list(tupla)
+print(lista)
+print(tupla)
+listaa = ["Jagoba", "Mario", "Rubén", "Beñat", "Paula", "Aitor"]
+tuplaa = tuple(listaa)
+print(listaa)
+print(tuplaa)
+print("Jagoba" in tupla)
+print(tupla.count("Jagoba"))
+print(len(tupla))
+nombre1, nombre2, nombre3, nombre4, nombre5, nombre6, nombre7 = tupla
+print(nombre1, nombre2, nombre3, nombre4, nombre5, nombre6, nombre7)
